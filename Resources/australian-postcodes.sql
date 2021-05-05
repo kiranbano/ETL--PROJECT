@@ -4,19 +4,15 @@ Taken and cribbed from blog.datalicious.com/free-download-all-australian-postcod
 May contain errors where latitude and longitude are off. Use at own non-validated risk.
 */
 
-SET NAMES utf8;
-SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
-
 DROP TABLE IF EXISTS postcodes_geo;
 CREATE TABLE postcodes_geo (
-  id int(11) NOT NULL auto_increment,
-  postcode varchar(5) collate utf8_unicode_ci default NULL,
-  suburb varchar(100) collate utf8_unicode_ci default NULL,
-  state varchar(4) collate utf8_unicode_ci default NULL,
-  latitude decimal(6,3) default NULL,
-  longitude decimal(6,3) default NULL,
-  PRIMARY KEY  (id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  id Serial NOT NULL PRIMARY KEY,
+  postcode varchar NOT NULL,
+  suburb varchar NOT NULL,
+  state varchar NOT NULL,
+  latitude FLOAT default NULL,
+  longitude FLOAT default NULL
+  );
 
 INSERT INTO postcodes_geo (postcode, suburb, state, latitude, longitude) VALUES
 ('200', 'Australian National University', 'ACT', -35.280, 149.120),
