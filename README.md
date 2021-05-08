@@ -88,6 +88,9 @@ ERD:
 
 •	ERD diagram was created using https://www.quickdatabasediagrams.com/
 
+![image](https://user-images.githubusercontent.com/72603532/117519558-64e57e80-afe7-11eb-85ad-dcf8fd2ea0a0.png)
+
+
 NOTES:
 •	ERD diagram is saved as a PNG file “ETL_project_ERD.png”
 •	DB testing query is stored in “testing data base queries.sql”.
