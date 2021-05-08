@@ -40,7 +40,7 @@ Transform:
 
 	For Ipynb
 
-•	All csv files were loaded and read using Jupyter python note book. New data frames were created for wind, solar and hydro installations with the information selected from the data of 2017, 2018 and 2019.
+•	All CSV files were loaded and read using Jupyter python note book. New data frames were created for wind, solar and hydro installations with the information selected from the data of 2017, 2018 and 2019.
  
 ![image](https://user-images.githubusercontent.com/72603532/117405268-b5f56400-af4e-11eb-86aa-c25bcf7e59f5.png)
 
