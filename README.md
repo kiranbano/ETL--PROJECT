@@ -93,7 +93,7 @@ ERD:
 
 NOTES:
 •	ERD diagram is saved as a PNG file “ETL_project_ERD.png”
-•	DB testing query is stored in “testing data base queries.sql”.
+•	DB testing query is stored in “Queries_on_database.sql”.
 
 
 
