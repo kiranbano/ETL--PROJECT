@@ -78,7 +78,7 @@ Load:
 
 ![image](https://user-images.githubusercontent.com/72603532/117405658-4e8be400-af4f-11eb-857f-f8bbe7e69ad6.png)
 
-•	Final ExtractTransformLoad work is shown in:  Final_ETL_project.ipynb
+•	Final ExtractTransformLoad work is shown in:  ETL_project final.ipynb
 
 ERD:
 •	Following query was used to demonstrate the use of our database for solar installations in Victoria as per postcodes and their ratings.
