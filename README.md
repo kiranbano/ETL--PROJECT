@@ -1,4 +1,4 @@
-# ETL Project Report: Australian renewable energy installations history and their respective output database in relation with the post code’s ratings.
+# ETL Project Report: Australian renewable energy installations history and their respective output database in relation with the solar post code’s ratings.
 Contributors: Arron Nguyen, Kiran Bano, Zohaib Hashmi
 
 Project Proposal
